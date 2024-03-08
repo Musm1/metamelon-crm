@@ -1,11 +1,9 @@
-import Login from "./pages/Authentication/login";
-import SignUp from "./pages/Authentication/signup";
+import SignIn from "./pages/Authentication/signIn";
 
 function App() {
   return (
     <div>
-      {/* <Login/> */}
-      <SignUp/>
+      <SignIn/>
     </div>
   );
 }

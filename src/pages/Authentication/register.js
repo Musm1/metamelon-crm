@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/pngs/fastLogo.png'
 
-const Login = () => {
+const Register = () => {
   return (
   <section className="h-full gradient-form bg-neutral-200 dark:bg-neutral-700">
     <div className="container h-full p-10">
@@ -118,4 +118,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Register
