@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/pngs/fastLogo.png'
 
-const SignUp = () => {
+const SignIn = () => {
   return (
     <section className="h-full gradient-form bg-neutral-200 dark:bg-neutral-700">
       <div className="container h-full p-10">
@@ -44,7 +44,7 @@ const SignUp = () => {
                     </div>
 
                     <form>
-                      <p className="mb-4 text-4xl font-bold uppercase signIn">Sign Up</p>
+                      <p className="mb-4 text-4xl font-bold uppercase signIn">Sign In</p>
                       <div className="relative mb-4" data-te-input-wrapper-init>
                         <input type="email" className="peer block h-[60px] w-full rounded-[30px] border border-[#121212]
                             bg-transparent px-3 py-[0.32rem] leading-[1.6]
@@ -120,4 +120,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default SignIn
