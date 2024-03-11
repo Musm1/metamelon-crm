@@ -48,6 +48,7 @@ const SignIn = () => {
                       <div className="relative mb-4" data-te-input-wrapper-init>
                         <input type="email" className="peer block h-[60px] w-full rounded-[30px] border border-[#121212]
                             bg-transparent px-3 py-[0.32rem] leading-[1.6]
+                            pl-[2rem] pt-[1rem]
                               transition-all duration-200 ease-linear focus:placeholder:opacity-100 
                               data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none 
                               dark:placeholder:text-neutral-200 

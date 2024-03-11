@@ -1,9 +1,11 @@
+import Layout from "./components/Layouts/Layout";
 import SignIn from "./pages/Authentication/signIn";
 
 function App() {
   return (
     <div>
-      <SignIn/>
+      {/* <SignIn/> */}
+      <Layout/>
     </div>
   );
 }
