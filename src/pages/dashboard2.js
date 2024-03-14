@@ -34,16 +34,16 @@ const Dashboard2 = () => {
        setCurrentpage(id) 
     }
     return (
-        <div className=''>
-            <div className='bg-[#d0d6de]'>
+        <div className='bg-[#d0d6de]'>
+            <div className='pb-6'>
                 <div className='ml-12'>
                     <h1 className='font-semibold text-[32px] leading-auto'>Dashboard</h1>
                     <p className='font-medium text-[18px] leading-auto text-[#A3A3A3] mb-5'>Hi, Zach. Welcome back to FastHolidays Portal!</p>
                 </div>
-                <div className='flex justify-between mx-12'>
+                <div className='flex w-[1280px] mx-10'>
                     {
                         arraytest.map((item) => (
-                            <div key={item} className='flex items-center rounded-xl h-32 w-72 text-[#464255] bg-[#ffff]'>
+                            <div key={item} className='flex items-center rounded-xl h-32 w-72 text-[#464255] bg-[#ffff] mx-4'>
                                 <div className='pr-4 pl-8'>
                                     <img src={item.img} alt="" />
                                 </div>
@@ -59,9 +59,9 @@ const Dashboard2 = () => {
                 <div className='bg-white pt-3 mt-4 ml-12 mr-20 md:w-[1260px] pb-2' >
                     <div className='flex my-6 ml-12 mr-8 justify-between items-center'>
                         <h1 className='font-bold text-[28px] leading-auto'>Sales</h1>
-                        <div className='flex'>
+                        <div className='flex relative'>
                         <input type="text" placeholder='Search Here' className='w-[50rem] bg-[#D9EEFB] py-2 px-2 rounded-lg outline-none font-medium text-[16px]' />
-                        <IoSearchOutline className='absolute right-[21rem] mt-3' />
+                        <IoSearchOutline className='absolute right-2 mt-3' />
                         </div>
                         <div>
                             <button className='border rounded-lg p-2 mr-3 bg-[#018AE4] bg-opacity-[0.15]'><BsFilterRight className='inline-block mr-1' />Select</button>
