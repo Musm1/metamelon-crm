@@ -3,6 +3,8 @@ import SignIn from "./pages/Authentication/signIn";
 import Thankyou from "./pages/thankyou";
 import Dashboard2 from "./pages/dashboard2";
 import Visaform from "./pages/visaform";
+import Hotelform from "./pages/hotelform";
+import Transportform from "./pages/transportform";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Register />
       <Thankyou/>
       <Dashboard2 /> */}
-      <Visaform />
+      {/* <Visaform />
+      <Hotelform /> */}
+      <Transportform />
     </div>
   );
 }
